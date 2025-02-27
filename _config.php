@@ -1,6 +1,6 @@
 <?php 
 
-$conn = new mysqli("coolify-database", "mysql", "pi8ckWdZZ41Ef90LQ11dUaZQD7JTyNu6QTwLDc305dj0gqcymUT2aqelXKK1Ikfq", "default");
+$conn = new mysqli("localhost", "mysql", "pi8ckWdZZ41Ef90LQ11dUaZQD7JTyNu6QTwLDc305dj0gqcymUT2aqelXKK1Ikfq", "default");
 
 if ($conn->connect_error) {
     error_log("Database connection failed: " . $conn->connect_error);
