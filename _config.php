@@ -1,6 +1,6 @@
 <?php 
 
-$conn = new mysqli("157.180.16.190", "mariadb", "pjBkA7h0UCvT6Jq7A0kHJbC0CfkKfmCUHcCtOApySSaNAJmPg8dPLeaURf4ccyrE", "mairadb_anitummy");
+$conn = new mysqli("ekg0wcwwkgogw0g40sgw84so", "mariadb", "pjBkA7h0UCvT6Jq7A0kHJbC0CfkKfmCUHcCtOApySSaNAJmPg8dPLeaURf4ccyrE", "mairadb_anitummy");
 
 if ($conn->connect_error) {
     error_log("Database connection failed: " . $conn->connect_error);
