@@ -22,8 +22,8 @@ $instagram = "https://www.instagram.com/pxr15_";
 // all the api you need
 
 $api = "https://api.anigone.com/api/v2/hianime"; //https://github.com/ghoshRitesh12/aniwatch-api
-$zpi = "https://your-hosted-api.com/api"; //https://github.com/PacaHat/zen-api
-$proxy = "https://your-hosted-proxy.com/cors?url="; //https://github.com/shashstormer/m3u8_proxy-cors
+$zpi = "https://zpi-two.vercel.app/api"; //https://github.com/PacaHat/zen-api
+$proxy = "https://m3u8-proxy-cors-dusky.vercel.app/cors?url="; //https://github.com/shashstormer/m3u8_proxy-cors
 
 
 $banner = $websiteUrl . "/public/images/banner.png";
